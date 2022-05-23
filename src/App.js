@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Let's get all the way to PROD by adding P tags from master and push through to staging etc
         </a>
       </header>
     </div>
