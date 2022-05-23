@@ -1,18 +1,14 @@
 
 import { theme } from './Theme/theme';
-import { Box, Button, ThemeProvider, Typography } from '@mui/material';
+import { ThemeProvider } from '@mui/material';
+import PreLaunchPage from './PreLaunchPage';
 
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <header>
-          <Box>
-            <Typography variant="h1" color="primary">I am for Scott's fancy talking </Typography>
-          </Box>
-          <Button size="large" variant='outlined'>Push Me</Button>
-        </header>
+        <PreLaunchPage />
       </div>
     </ThemeProvider>
   );
