@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Testing ci/cd pipeline
+          Testing branch merges
         </p>
         <a
           className="App-link"
