@@ -50,5 +50,14 @@ export const theme = createTheme({
       fontWeight: "normal",
       lineHeight: "1.2em"
     },
-  }
+  },
+  breakpoints: {
+    values: {
+      mobile: 0,
+      tablet: 640,
+      laptop: 1024,
+      desktop: 1200,
+      desktopXl: 1536
+    },
+  },
 });
